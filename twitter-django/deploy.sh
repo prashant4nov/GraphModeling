@@ -1,0 +1,1 @@
+/usr/local/google_appengine/appcfg.py --oauth2 update ../twitter-django

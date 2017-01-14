@@ -1,0 +1,22 @@
+application: hashtag-profile-state-offical
+version: test-2
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: .*
+  script: myproject.wsgi.application
+
+- url: /blobstore.*
+  script: blobstore.app
+
+libraries:
+- name: django
+  version: 1.5
+
+- name: ssl
+  version: latest
+
+builtins:
+- remote_api: on

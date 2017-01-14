@@ -1,0 +1,1 @@
+/usr/local/google_appengine/appcfg.py --oauth2 create_bulkloader_config --filename=bulkloader.yaml --url=http://reporter-tweet.appspot.com/_ah/remote_api
